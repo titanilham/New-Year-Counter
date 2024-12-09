@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+html{
+
+    height: 100%;
+}
+
+body{
+    background: linear-gradient(180deg, rgb(80, 173, 255) 0%, rgb(0, 94, 176) 100%);
+    font-family: 'Josefin Sans';
+    color: white;
+    overflow: hidden;
+}
+
+.main_text{
+
+    font-family: 'Josefin Sans';  
+    text-align: center;
+    font-size: 500%;
+    cursor: default;
+
+}
+.counter{
+
+    font-family: 'Josefin Sans';
+    cursor: default;
+    text-align: center;
+    
+    
+
+}
+
+.counter_container{
+    
+    width: 50%;
+    height: 60%;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    font-size: 800%;   
+   
+}
+
+
+
+.img {
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+}
+
+
+
+.img2 {
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    right: 0px;
+    transform: rotateY(180deg);
+}
+
+@media (max-width: 1450px) {
+    
+    .img2 {
+        visibility: hidden;
+    }
+    
+
+}
+
+@media (max-width: 1250px) {
+    
+    .img2 {
+        visibility: hidden;
+    }
+
+    .img{
+
+        opacity: 0.7;
+
+    }
+    
+
+}
+
+@media (max-width: 415px) {
+    
+    .counter_container{
+
+        height: 40%;
+
+    }
+    
+
+}
+
+@media (max-width: 315px) {
+    
+    .counter_container{
+
+        height: 10%;
+        font-size: 400%; 
+        width: 100%;
+
+    }
+    .main_text{
+
+        
+        font-size: 300%;
+    
+    }
+    .img {
+        visibility: hidden;
+    }
+
+}
