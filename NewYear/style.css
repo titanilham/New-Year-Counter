@@ -78,7 +78,7 @@ body{
 
     .img{
 
-        opacity: 0.7;
+        visibility: hidden;
 
     }
     
