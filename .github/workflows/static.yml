@@ -29,7 +29,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Загружаем только папку NewYear
+          
           path: './NewYear'
       - name: Deploy to GitHub Pages
         id: deployment
